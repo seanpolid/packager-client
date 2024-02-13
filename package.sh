@@ -1,1 +1,1 @@
-/opt/bin/package/PackagerClient
+/opt/bin/csharp/package/PackagerClient
