@@ -37,6 +37,10 @@ namespace PackagerClient.clients
             {
                 Console.WriteLine("Could not successfully communicate with package server.");
             }
+            else
+            {
+                Console.WriteLine(response.Content.ReadAsStringAsync().Result);
+            }
         }
     }
 }
