@@ -1,1 +1,1 @@
-./package/PackagerClient
+/opt/bin/package/PackagerClient
