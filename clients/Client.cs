@@ -39,7 +39,7 @@ namespace PackagerClient.clients
             }
             else
             {
-                Console.WriteLine("Path: " + response.Content.ReadAsStringAsync().Result);
+                Console.WriteLine(response.Content.ReadAsStringAsync().Result);
             }
         }
     }
