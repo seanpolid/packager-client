@@ -17,6 +17,11 @@ namespace PackagerClient.clients
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
         };
 
+        static Client()
+        {
+            httpClient.Timeout = TimeSpan.FromMinutes(5);
+        }
+
         public static void SendPackageInfo(string server, string containerName, string path)
         {
             PackageInfoDTO packageInfo = new()
