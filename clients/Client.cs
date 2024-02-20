@@ -19,7 +19,7 @@ namespace PackagerClient.clients
 
         static Client()
         {
-            httpClient.Timeout = TimeSpan.FromMinutes(5);
+            httpClient.Timeout = TimeSpan.FromMinutes(10);
         }
 
         public static void SendPackageInfo(string server, string containerName, string path)
